@@ -5,7 +5,6 @@
 ### Project Overview
 This project focused on Data Cleaning and Exploratory Data Analysis (EDA) using two real-world datasets: the E-commerce Transactions Dataset and the Netflix Movies & TV Shows Dataset. The analysis involved identifying data quality issues, cleaning the datasets, exploring patterns, creating visualizations, and generating actionable insights.
 
----
 
 ## Datasets
 
@@ -15,7 +14,6 @@ Source: https://www.kaggle.com/datasets/vijayuv/onlineretail
 ### 2. Netflix Movies & TV Shows Dataset
 Source: https://www.kaggle.com/datasets/shivamb/netflix-shows
 
----
 
 ## Tools Used
 
@@ -25,7 +23,6 @@ Source: https://www.kaggle.com/datasets/shivamb/netflix-shows
 - Matplotlib
 - Visual Studio Code (VS Code)
 
----
 
 ## Tasks Completed
 
@@ -49,7 +46,6 @@ Source: https://www.kaggle.com/datasets/shivamb/netflix-shows
 - Created visualizations
 - Identified trends and insights
 
----
 
 # Key Insights
 
@@ -70,7 +66,7 @@ Some products rank highly due to very large order quantities rather than frequen
 ### 5. Significant Data Cleaning Was Required
 The original dataset contained missing values, duplicate records, invalid quantities, and incorrect prices, demonstrating the importance of preprocessing before analysis.
 
----
+
 
 ## Netflix Movies & TV Shows Dataset
 
@@ -89,7 +85,7 @@ TV-MA and TV-14 ratings dominate the platform, while mature-rated content accoun
 ### 5. International and Drama Content Are Most Common
 International Movies, Dramas, and Comedies are the most represented genres, indicating Netflix's focus on global audiences and diverse storytelling.
 
----
+
 
 ## Repository Structure
 

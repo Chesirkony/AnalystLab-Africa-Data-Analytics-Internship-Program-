@@ -1,108 +1,105 @@
-Data Cleaning and Exploratory Data Analysis (EDA) Project
-AnalystLab Africa Data Analytics Internship Program
-Project Overview
-This project was completed as part of the AnalystLab Africa Data Analytics Internship Program. The objective was to perform Data Cleaning and Exploratory Data Analysis (EDA) on two real-world datasets using Python and Pandas. The project focused on identifying data quality issues, cleaning the datasets, exploring patterns, generating visualizations, and extracting meaningful insights.
-Datasets Used
-1. E-commerce Transactions Dataset
-Source: Kaggle
-https://www.kaggle.com/datasets/vijayuv/onlineretail
-This dataset contains transactional records from an online retail store, including product details, quantities sold, prices, customer information, invoice details, and countries of purchase.
-2. Netflix Movies & TV Shows Dataset
-Source: Kaggle
-https://www.kaggle.com/datasets/shivamb/netflix-shows
-This dataset contains information about movies and television shows available on Netflix, including title, content type, director, cast, country, release year, rating, duration, genres, and descriptions.
-Project Objectives
-The project involved:
-•	Understanding the datasets
-•	Identifying data types and dataset structure
-•	Detecting and handling missing values
-•	Removing duplicate records
-•	Standardizing data formats and column names
-•	Validating data quality
-•	Performing exploratory data analysis (EDA)
-•	Creating visualizations
-•	Extracting business and content-related insights
+# Data Cleaning and Exploratory Data Analysis (EDA)
 
-Tools and Libraries Used
-•	Python
-•	Pandas
-•	NumPy
-•	Matplotlib
-•	Visual Studio Code (VS Code)
-Task 1: Dataset Understanding
-For each dataset:
-•	Loaded the dataset into Python using Pandas
-•	Displayed the first few rows
-•	Identified dataset dimensions
-•	Examined data types
-•	Classified numerical and categorical features
-•	Identified possible unique identifiers
-•	Documented dataset contents
+## AnalystLab Africa Data Analytics Internship Program
 
+### Project Overview
+This project focused on Data Cleaning and Exploratory Data Analysis (EDA) using two real-world datasets: the E-commerce Transactions Dataset and the Netflix Movies & TV Shows Dataset. The analysis involved identifying data quality issues, cleaning the datasets, exploring patterns, creating visualizations, and generating actionable insights.
 
-Task 2: Data Cleaning
-E-commerce Dataset
-Cleaning activities included:
-•	Handling missing values
-•	Removing duplicate records
-•	Standardizing column names
-•	Converting date fields
-•	Correcting text formatting
-•	Removing invalid quantities and prices
-•	Performing outlier checks
-Netflix Dataset
-Cleaning activities included:
-•	Filling missing values in categorical fields
-•	Removing records with missing critical information
-•	Standardizing text formatting
-•	Converting date columns to datetime format
-•	Validating ratings, release years, and duration values
-Task 3: Exploratory Data Analysis (EDA)
-E-commerce Dataset
-Analysis performed:
-•	Summary statistics
-•	Top-selling products
-•	Highest revenue-generating countries
-•	Monthly sales trends
-•	Most purchased products
-•	Customer purchasing behavior
-Visualizations created:
-•	Bar Chart
-•	Revenue by Country Chart
-•	Pie Chart
-•	Line Chart
-•	Box Plot
-Netflix Dataset
-Analysis performed:
-•	Movies vs TV Shows distribution
-•	Content added by year
-•	Top content-producing countries
-•	Most common ratings
-•	Most common genres/categories
-Visualizations created:
-•	Bar Charts
-•	Line Chart
-•	Histogram
-•	Box Plot
-Key Findings
-E-commerce Dataset
-•	The United Kingdom generated over 90% of total revenue.
-•	Sales peaked in November 2011, indicating strong seasonal demand.
-•	Customer spending was highly concentrated among a small group of customers.
-•	Bulk purchases significantly influenced product sales rankings.
-•	Extensive data cleaning was required due to missing values, duplicates, and invalid records.
-Netflix Dataset
-•	Movies account for approximately 70% of Netflix content.
-•	Netflix experienced rapid content growth between 2017 and 2020.
-•	The United States is the leading content-producing country.
-•	TV-MA and TV-14 are the most common ratings.
-•	International Movies, Dramas, and Comedies are the most represented genres.
-Project Structure
+---
+
+## Datasets
+
+### 1. E-commerce Transactions Dataset
+Source: https://www.kaggle.com/datasets/vijayuv/onlineretail
+
+### 2. Netflix Movies & TV Shows Dataset
+Source: https://www.kaggle.com/datasets/shivamb/netflix-shows
+
+---
+
+## Tools Used
+
+- Python
+- Pandas
+- NumPy
+- Matplotlib
+- Visual Studio Code (VS Code)
+
+---
+
+## Tasks Completed
+
+### Task 1: Dataset Understanding
+- Loaded datasets into Python
+- Examined dataset dimensions
+- Identified data types
+- Determined numerical and categorical features
+- Identified possible primary keys
+
+### Task 2: Data Cleaning
+- Handled missing values
+- Removed duplicate records
+- Standardized column names and formats
+- Validated data quality
+- Removed invalid records
+
+### Task 3: Exploratory Data Analysis (EDA)
+- Generated summary statistics
+- Explored data patterns
+- Created visualizations
+- Identified trends and insights
+
+---
+
+# Key Insights
+
+## E-commerce Transactions Dataset
+
+### 1. Revenue is Highly Concentrated in the United Kingdom
+The United Kingdom generated approximately £9 million in revenue, contributing more than 90% of total sales. This indicates a strong dependence on a single market.
+
+### 2. Strong Seasonal Sales Patterns Exist
+Sales reached their highest point in November 2011 (£1.5 million), suggesting strong holiday-season demand. February recorded the lowest sales, highlighting seasonal fluctuations.
+
+### 3. A Small Number of Customers Generate Most Revenue
+Customer spending is highly skewed, with a few customers contributing exceptionally large amounts of revenue. This suggests the importance of retaining high-value customers.
+
+### 4. Bulk Purchases Drive Product Rankings
+Some products rank highly due to very large order quantities rather than frequent purchases, indicating the presence of wholesale or bulk-buying behavior.
+
+### 5. Significant Data Cleaning Was Required
+The original dataset contained missing values, duplicate records, invalid quantities, and incorrect prices, demonstrating the importance of preprocessing before analysis.
+
+---
+
+## Netflix Movies & TV Shows Dataset
+
+### 1. Movies Dominate Netflix Content
+Movies account for 6,126 titles (69.7%) while TV Shows account for 2,664 titles (30.3%), showing that Netflix's catalog is primarily movie-based.
+
+### 2. Netflix Experienced Rapid Growth Between 2017 and 2020
+Content additions increased dramatically and peaked in 2019 with 2,016 titles added, reflecting aggressive content expansion.
+
+### 3. The United States Leads Content Production
+The United States contributes 3,681 titles (41.9%), making it the largest content-producing country on Netflix, followed by India and the United Kingdom.
+
+### 4. Mature Audiences Are Netflix's Primary Target
+TV-MA and TV-14 ratings dominate the platform, while mature-rated content accounts for approximately 45.6% of all titles.
+
+### 5. International and Drama Content Are Most Common
+International Movies, Dramas, and Comedies are the most represented genres, indicating Netflix's focus on global audiences and diverse storytelling.
+
+---
+
+## Repository Structure
+
+```text
 ├── OnlineRetail.csv
 ├── netflix_titles.csv
 ├── Cleaned_OnlineRetail.csv
 ├── Cleaned_Netflix_Dataset.csv
-├── EDA_Notebook.ipynb / Python Scripts
+├── EDA_Notebook.ipynb
+├── README.md
 Conclusion
 The project demonstrates the importance of data cleaning before conducting analysis. By resolving missing values, duplicates, inconsistencies, and invalid records, reliable datasets were obtained for analysis. The EDA process revealed important trends, customer behaviors, revenue patterns, content distributions, and genre preferences that can support data-driven decision-making.
 Author

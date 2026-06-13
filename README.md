@@ -38,8 +38,6 @@ For each dataset:
 •	Classified numerical and categorical features
 •	Identified possible unique identifiers
 •	Documented dataset contents
-
-
 Task 2: Data Cleaning
 E-commerce Dataset
 Cleaning activities included:
